@@ -2,6 +2,7 @@
   "name": "my-react-app",
   "private": true,
   "version": "0.0.0",
+  "description": "Demo installation of @kirti/react-ai-skills - Shows how to use the package locally before npm publish",
   "type": "module",
   "scripts": {
     "=============== DEVELOPMENT ===============": "",
