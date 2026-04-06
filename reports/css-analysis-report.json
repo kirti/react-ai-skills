@@ -1,0 +1,11 @@
+{
+  "totalFiles": 2,
+  "totalRules": 32,
+  "issues": {
+    "duplicateSelectors": [],
+    "colorInconsistency": {},
+    "spacingInconsistency": {},
+    "importantOveruse": [],
+    "deepNesting": []
+  }
+}

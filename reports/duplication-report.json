@@ -1,0 +1,181 @@
+{
+  "totalDuplicates": 7,
+  "duplicateBlocks": [
+    {
+      "hash": "46449abb06a033f1897c5777e5c30a96",
+      "occurrences": 6,
+      "locations": [
+        {
+          "file": "src/App.jsx",
+          "lines": "44-48"
+        },
+        {
+          "file": "src/App.jsx",
+          "lines": "50-54"
+        },
+        {
+          "file": "src/App.jsx",
+          "lines": "65-69"
+        },
+        {
+          "file": "src/App.jsx",
+          "lines": "77-81"
+        },
+        {
+          "file": "src/App.jsx",
+          "lines": "89-93"
+        },
+        {
+          "file": "src/App.jsx",
+          "lines": "101-105"
+        }
+      ],
+      "code": "            <li>\n              <a href=\"https://vite.dev/\" target=\"_blank\">\n                <img className=\"logo\" src={viteLogo} alt=\"\" />\n                Explore Vite\n              </a>",
+      "linesCount": 5
+    },
+    {
+      "hash": "fcc9cfb9fe5f45defd0ee1c108edb313",
+      "occurrences": 6,
+      "locations": [
+        {
+          "file": "src/App.jsx",
+          "lines": "45-49"
+        },
+        {
+          "file": "src/App.jsx",
+          "lines": "51-55"
+        },
+        {
+          "file": "src/App.jsx",
+          "lines": "66-70"
+        },
+        {
+          "file": "src/App.jsx",
+          "lines": "78-82"
+        },
+        {
+          "file": "src/App.jsx",
+          "lines": "90-94"
+        },
+        {
+          "file": "src/App.jsx",
+          "lines": "102-106"
+        }
+      ],
+      "code": "              <a href=\"https://vite.dev/\" target=\"_blank\">\n                <img className=\"logo\" src={viteLogo} alt=\"\" />\n                Explore Vite\n              </a>\n            </li>",
+      "linesCount": 5
+    },
+    {
+      "hash": "d51c9ee082d9ad58a3cdb360d9e0be6d",
+      "occurrences": 4,
+      "locations": [
+        {
+          "file": "src/App.jsx",
+          "lines": "48-52"
+        },
+        {
+          "file": "src/App.jsx",
+          "lines": "75-79"
+        },
+        {
+          "file": "src/App.jsx",
+          "lines": "87-91"
+        },
+        {
+          "file": "src/App.jsx",
+          "lines": "99-103"
+        }
+      ],
+      "code": "              </a>\n            </li>\n            <li>\n              <a href=\"https://react.dev/\" target=\"_blank\">\n                <img className=\"button-icon\" src={reactLogo} alt=\"\" />",
+      "linesCount": 5
+    },
+    {
+      "hash": "3ee641a0886a20c7886328d61a7bb7b3",
+      "occurrences": 4,
+      "locations": [
+        {
+          "file": "src/App.jsx",
+          "lines": "49-53"
+        },
+        {
+          "file": "src/App.jsx",
+          "lines": "76-80"
+        },
+        {
+          "file": "src/App.jsx",
+          "lines": "88-92"
+        },
+        {
+          "file": "src/App.jsx",
+          "lines": "100-104"
+        }
+      ],
+      "code": "            </li>\n            <li>\n              <a href=\"https://react.dev/\" target=\"_blank\">\n                <img className=\"button-icon\" src={reactLogo} alt=\"\" />\n                Learn more",
+      "linesCount": 5
+    },
+    {
+      "hash": "424fade37f8f66a46d6da00f709a836d",
+      "occurrences": 4,
+      "locations": [
+        {
+          "file": "src/App.jsx",
+          "lines": "67-71"
+        },
+        {
+          "file": "src/App.jsx",
+          "lines": "79-83"
+        },
+        {
+          "file": "src/App.jsx",
+          "lines": "91-95"
+        },
+        {
+          "file": "src/App.jsx",
+          "lines": "103-107"
+        }
+      ],
+      "code": "                <svg\n                  className=\"button-icon\"\n                  role=\"presentation\"\n                  aria-hidden=\"true\"\n                >",
+      "linesCount": 5
+    },
+    {
+      "hash": "85401cb98bb7a2830dc17a6f557ba8fe",
+      "occurrences": 2,
+      "locations": [
+        {
+          "file": "src/App.jsx",
+          "lines": "43-47"
+        },
+        {
+          "file": "src/App.jsx",
+          "lines": "64-68"
+        }
+      ],
+      "code": "          <ul>\n            <li>\n              <a href=\"https://vite.dev/\" target=\"_blank\">\n                <img className=\"logo\" src={viteLogo} alt=\"\" />\n                Explore Vite",
+      "linesCount": 5
+    },
+    {
+      "hash": "742c77672e23cb81e4e0721340680acf",
+      "occurrences": 2,
+      "locations": [
+        {
+          "file": "src/App.test.jsx",
+          "lines": "6-10"
+        },
+        {
+          "file": "src/App.test.jsx",
+          "lines": "7-11"
+        }
+      ],
+      "code": "\ndescribe('App Component', () => {\n  it('throws error if component is missing', () => {\n  expect(() => render(<App1 />)).toThrow();\n});",
+      "linesCount": 5
+    }
+  ],
+  "summary": {
+    "filesAffected": [
+      "src/App.jsx",
+      "src/App.test.jsx"
+    ],
+    "linesOfDuplication": 105,
+    "estimatedSavings": 105
+  }
+}

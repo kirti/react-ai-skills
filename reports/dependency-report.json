@@ -1,0 +1,534 @@
+{
+  "date": "2026-04-05T22:09:17.198Z",
+  "vulnerabilities": [],
+  "autoUpdated": [],
+  "manualReview": [
+    {
+      "package": "@eslint/js",
+      "currentVersion": "9.39.4",
+      "wantedVersion": "9.39.4",
+      "latestVersion": "10.0.1",
+      "location": "/Users/kirtikaushal/react-ai-skills-workspace/react-ai-skills-production/demo-repo/node_modules/@eslint/js",
+      "type": "MAJOR",
+      "breaking": true,
+      "reason": "Breaking changes possible - requires manual review and testing",
+      "migrationGuide": {
+        "package": "@eslint/js",
+        "fromVersion": "9.39.4",
+        "toVersion": "10.0.1",
+        "updateType": "MAJOR",
+        "steps": [
+          {
+            "order": 1,
+            "title": "Review Breaking Changes",
+            "description": "Check the changelog for @eslint/js between v9.39.4 and v10.0.1",
+            "action": "manual",
+            "resources": [
+              {
+                "type": "documentation",
+                "url": "https://eslint.org",
+                "description": "Official documentation and changelog"
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Create Feature Branch",
+            "description": "Create a new git branch for this upgrade",
+            "action": "command",
+            "command": "git checkout -b upgrade-@eslint/js-10.0.1"
+          },
+          {
+            "order": 3,
+            "title": "Update Package",
+            "description": "Update @eslint/js to version 10.0.1",
+            "action": "command",
+            "command": "npm install @eslint/js@10.0.1"
+          },
+          {
+            "order": 4,
+            "title": "Update Code",
+            "description": "Modify your code to accommodate breaking changes",
+            "action": "manual",
+            "tips": [
+              "Search for imports of this package",
+              "Review deprecated API usage",
+              "Check for type changes (if using TypeScript)",
+              "Update configuration if needed"
+            ]
+          },
+          {
+            "order": 5,
+            "title": "Run Tests",
+            "description": "Execute test suite to identify issues",
+            "action": "command",
+            "command": "npm test"
+          },
+          {
+            "order": 6,
+            "title": "Build and Validate",
+            "description": "Ensure application builds and runs correctly",
+            "action": "commands",
+            "commands": [
+              "npm run build",
+              "npm run dev"
+            ]
+          }
+        ],
+        "warnings": [
+          "This is a MAJOR version update which may contain breaking changes",
+          "Thorough testing is required before deploying to production"
+        ],
+        "resources": [
+          {
+            "type": "documentation",
+            "url": "https://eslint.org",
+            "description": "Official documentation and changelog"
+          }
+        ]
+      }
+    },
+    {
+      "package": "eslint",
+      "currentVersion": "9.39.4",
+      "wantedVersion": "9.39.4",
+      "latestVersion": "10.2.0",
+      "location": "/Users/kirtikaushal/react-ai-skills-workspace/react-ai-skills-production/demo-repo/node_modules/eslint",
+      "type": "MAJOR",
+      "breaking": true,
+      "reason": "Breaking changes possible - requires manual review and testing",
+      "migrationGuide": {
+        "package": "eslint",
+        "fromVersion": "9.39.4",
+        "toVersion": "10.2.0",
+        "updateType": "MAJOR",
+        "steps": [
+          {
+            "order": 1,
+            "title": "Review Breaking Changes",
+            "description": "Check the changelog for eslint between v9.39.4 and v10.2.0",
+            "action": "manual",
+            "resources": [
+              {
+                "type": "documentation",
+                "url": "https://eslint.org",
+                "description": "Official documentation and changelog"
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Create Feature Branch",
+            "description": "Create a new git branch for this upgrade",
+            "action": "command",
+            "command": "git checkout -b upgrade-eslint-10.2.0"
+          },
+          {
+            "order": 3,
+            "title": "Update Package",
+            "description": "Update eslint to version 10.2.0",
+            "action": "command",
+            "command": "npm install eslint@10.2.0"
+          },
+          {
+            "order": 4,
+            "title": "Update Code",
+            "description": "Modify your code to accommodate breaking changes",
+            "action": "manual",
+            "tips": [
+              "Search for imports of this package",
+              "Review deprecated API usage",
+              "Check for type changes (if using TypeScript)",
+              "Update configuration if needed"
+            ]
+          },
+          {
+            "order": 5,
+            "title": "Run Tests",
+            "description": "Execute test suite to identify issues",
+            "action": "command",
+            "command": "npm test"
+          },
+          {
+            "order": 6,
+            "title": "Build and Validate",
+            "description": "Ensure application builds and runs correctly",
+            "action": "commands",
+            "commands": [
+              "npm run build",
+              "npm run dev"
+            ]
+          }
+        ],
+        "warnings": [
+          "This is a MAJOR version update which may contain breaking changes",
+          "Thorough testing is required before deploying to production"
+        ],
+        "resources": [
+          {
+            "type": "documentation",
+            "url": "https://eslint.org",
+            "description": "Official documentation and changelog"
+          }
+        ]
+      }
+    },
+    {
+      "package": "eslint-config-prettier",
+      "currentVersion": "9.1.2",
+      "wantedVersion": "9.1.2",
+      "latestVersion": "10.1.8",
+      "location": "/Users/kirtikaushal/react-ai-skills-workspace/react-ai-skills-production/demo-repo/node_modules/eslint-config-prettier",
+      "type": "MAJOR",
+      "breaking": true,
+      "reason": "Breaking changes possible - requires manual review and testing",
+      "migrationGuide": {
+        "package": "eslint-config-prettier",
+        "fromVersion": "9.1.2",
+        "toVersion": "10.1.8",
+        "updateType": "MAJOR",
+        "steps": [
+          {
+            "order": 1,
+            "title": "Review Breaking Changes",
+            "description": "Check the changelog for eslint-config-prettier between v9.1.2 and v10.1.8",
+            "action": "manual",
+            "resources": [
+              {
+                "type": "documentation",
+                "url": "https://github.com/prettier/eslint-config-prettier#readme",
+                "description": "Official documentation and changelog"
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Create Feature Branch",
+            "description": "Create a new git branch for this upgrade",
+            "action": "command",
+            "command": "git checkout -b upgrade-eslint-config-prettier-10.1.8"
+          },
+          {
+            "order": 3,
+            "title": "Update Package",
+            "description": "Update eslint-config-prettier to version 10.1.8",
+            "action": "command",
+            "command": "npm install eslint-config-prettier@10.1.8"
+          },
+          {
+            "order": 4,
+            "title": "Update Code",
+            "description": "Modify your code to accommodate breaking changes",
+            "action": "manual",
+            "tips": [
+              "Search for imports of this package",
+              "Review deprecated API usage",
+              "Check for type changes (if using TypeScript)",
+              "Update configuration if needed"
+            ]
+          },
+          {
+            "order": 5,
+            "title": "Run Tests",
+            "description": "Execute test suite to identify issues",
+            "action": "command",
+            "command": "npm test"
+          },
+          {
+            "order": 6,
+            "title": "Build and Validate",
+            "description": "Ensure application builds and runs correctly",
+            "action": "commands",
+            "commands": [
+              "npm run build",
+              "npm run dev"
+            ]
+          }
+        ],
+        "warnings": [
+          "This is a MAJOR version update which may contain breaking changes",
+          "Thorough testing is required before deploying to production"
+        ],
+        "resources": [
+          {
+            "type": "documentation",
+            "url": "https://github.com/prettier/eslint-config-prettier#readme",
+            "description": "Official documentation and changelog"
+          }
+        ]
+      }
+    },
+    {
+      "package": "stylelint",
+      "currentVersion": "16.26.1",
+      "wantedVersion": "16.26.1",
+      "latestVersion": "17.6.0",
+      "location": "/Users/kirtikaushal/react-ai-skills-workspace/react-ai-skills-production/demo-repo/node_modules/stylelint",
+      "type": "MAJOR",
+      "breaking": true,
+      "reason": "Breaking changes possible - requires manual review and testing",
+      "migrationGuide": {
+        "package": "stylelint",
+        "fromVersion": "16.26.1",
+        "toVersion": "17.6.0",
+        "updateType": "MAJOR",
+        "steps": [
+          {
+            "order": 1,
+            "title": "Review Breaking Changes",
+            "description": "Check the changelog for stylelint between v16.26.1 and v17.6.0",
+            "action": "manual",
+            "resources": [
+              {
+                "type": "documentation",
+                "url": "https://stylelint.io",
+                "description": "Official documentation and changelog"
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Create Feature Branch",
+            "description": "Create a new git branch for this upgrade",
+            "action": "command",
+            "command": "git checkout -b upgrade-stylelint-17.6.0"
+          },
+          {
+            "order": 3,
+            "title": "Update Package",
+            "description": "Update stylelint to version 17.6.0",
+            "action": "command",
+            "command": "npm install stylelint@17.6.0"
+          },
+          {
+            "order": 4,
+            "title": "Update Code",
+            "description": "Modify your code to accommodate breaking changes",
+            "action": "manual",
+            "tips": [
+              "Search for imports of this package",
+              "Review deprecated API usage",
+              "Check for type changes (if using TypeScript)",
+              "Update configuration if needed"
+            ]
+          },
+          {
+            "order": 5,
+            "title": "Run Tests",
+            "description": "Execute test suite to identify issues",
+            "action": "command",
+            "command": "npm test"
+          },
+          {
+            "order": 6,
+            "title": "Build and Validate",
+            "description": "Ensure application builds and runs correctly",
+            "action": "commands",
+            "commands": [
+              "npm run build",
+              "npm run dev"
+            ]
+          }
+        ],
+        "warnings": [
+          "This is a MAJOR version update which may contain breaking changes",
+          "Thorough testing is required before deploying to production"
+        ],
+        "resources": [
+          {
+            "type": "documentation",
+            "url": "https://stylelint.io",
+            "description": "Official documentation and changelog"
+          }
+        ]
+      }
+    },
+    {
+      "package": "stylelint-config-standard",
+      "currentVersion": "36.0.1",
+      "wantedVersion": "36.0.1",
+      "latestVersion": "40.0.0",
+      "location": "/Users/kirtikaushal/react-ai-skills-workspace/react-ai-skills-production/demo-repo/node_modules/stylelint-config-standard",
+      "type": "MAJOR",
+      "breaking": true,
+      "reason": "Breaking changes possible - requires manual review and testing",
+      "migrationGuide": {
+        "package": "stylelint-config-standard",
+        "fromVersion": "36.0.1",
+        "toVersion": "40.0.0",
+        "updateType": "MAJOR",
+        "steps": [
+          {
+            "order": 1,
+            "title": "Review Breaking Changes",
+            "description": "Check the changelog for stylelint-config-standard between v36.0.1 and v40.0.0",
+            "action": "manual",
+            "resources": [
+              {
+                "type": "documentation",
+                "url": "https://github.com/stylelint/stylelint-config-standard#readme",
+                "description": "Official documentation and changelog"
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Create Feature Branch",
+            "description": "Create a new git branch for this upgrade",
+            "action": "command",
+            "command": "git checkout -b upgrade-stylelint-config-standard-40.0.0"
+          },
+          {
+            "order": 3,
+            "title": "Update Package",
+            "description": "Update stylelint-config-standard to version 40.0.0",
+            "action": "command",
+            "command": "npm install stylelint-config-standard@40.0.0"
+          },
+          {
+            "order": 4,
+            "title": "Update Code",
+            "description": "Modify your code to accommodate breaking changes",
+            "action": "manual",
+            "tips": [
+              "Search for imports of this package",
+              "Review deprecated API usage",
+              "Check for type changes (if using TypeScript)",
+              "Update configuration if needed"
+            ]
+          },
+          {
+            "order": 5,
+            "title": "Run Tests",
+            "description": "Execute test suite to identify issues",
+            "action": "command",
+            "command": "npm test"
+          },
+          {
+            "order": 6,
+            "title": "Build and Validate",
+            "description": "Ensure application builds and runs correctly",
+            "action": "commands",
+            "commands": [
+              "npm run build",
+              "npm run dev"
+            ]
+          }
+        ],
+        "warnings": [
+          "This is a MAJOR version update which may contain breaking changes",
+          "Thorough testing is required before deploying to production"
+        ],
+        "resources": [
+          {
+            "type": "documentation",
+            "url": "https://github.com/stylelint/stylelint-config-standard#readme",
+            "description": "Official documentation and changelog"
+          }
+        ]
+      }
+    },
+    {
+      "package": "typescript",
+      "currentVersion": "5.9.3",
+      "wantedVersion": "5.9.3",
+      "latestVersion": "6.0.2",
+      "location": "/Users/kirtikaushal/react-ai-skills-workspace/react-ai-skills-production/demo-repo/node_modules/typescript",
+      "type": "MAJOR",
+      "breaking": true,
+      "reason": "Breaking changes possible - requires manual review and testing",
+      "migrationGuide": {
+        "package": "typescript",
+        "fromVersion": "5.9.3",
+        "toVersion": "6.0.2",
+        "updateType": "MAJOR",
+        "steps": [
+          {
+            "order": 1,
+            "title": "Review Breaking Changes",
+            "description": "Check the changelog for typescript between v5.9.3 and v6.0.2",
+            "action": "manual",
+            "resources": [
+              {
+                "type": "documentation",
+                "url": "https://www.typescriptlang.org/",
+                "description": "Official documentation and changelog"
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Create Feature Branch",
+            "description": "Create a new git branch for this upgrade",
+            "action": "command",
+            "command": "git checkout -b upgrade-typescript-6.0.2"
+          },
+          {
+            "order": 3,
+            "title": "Update Package",
+            "description": "Update typescript to version 6.0.2",
+            "action": "command",
+            "command": "npm install typescript@6.0.2"
+          },
+          {
+            "order": 4,
+            "title": "Update Code",
+            "description": "Modify your code to accommodate breaking changes",
+            "action": "manual",
+            "tips": [
+              "Search for imports of this package",
+              "Review deprecated API usage",
+              "Check for type changes (if using TypeScript)",
+              "Update configuration if needed"
+            ]
+          },
+          {
+            "order": 5,
+            "title": "Run Tests",
+            "description": "Execute test suite to identify issues",
+            "action": "command",
+            "command": "npm test"
+          },
+          {
+            "order": 6,
+            "title": "Build and Validate",
+            "description": "Ensure application builds and runs correctly",
+            "action": "commands",
+            "commands": [
+              "npm run build",
+              "npm run dev"
+            ]
+          }
+        ],
+        "warnings": [
+          "This is a MAJOR version update which may contain breaking changes",
+          "Thorough testing is required before deploying to production"
+        ],
+        "resources": [
+          {
+            "type": "documentation",
+            "url": "https://www.typescriptlang.org/",
+            "description": "Official documentation and changelog"
+          }
+        ]
+      }
+    }
+  ],
+  "validationResults": [],
+  "errors": [],
+  "summary": {
+    "vulnerabilities": {
+      "total": 0,
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0
+    },
+    "updates": {
+      "total": 6,
+      "autoUpdate": 0,
+      "manualReview": 6
+    }
+  }
+}

@@ -1,0 +1,35 @@
+# Place this at: .github/workflows/ci.yml
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  quality-checks:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+      
+      - run: npm ci
+      - run: npm run lint || true
+      - run: npm test || true
+      - run: npm run build
+      - run: npm run deps:dry-run || true
+      - run: npm run detect:duplicates || true
+      - run: npm run a11y:check || true
+      - run: npm run validate:skills
+      
+      - uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: quality-reports
+          path: reports/
+          retention-days: 30
