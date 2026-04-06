@@ -1,4 +1,4 @@
-# React AI Skills - Demo Installation
+# React AI Skills - Demo Installation(wip)
 
 [![GitHub](https://img.shields.io/badge/GitHub-kirti%2Freact--ai--skills-blue)](https://github.com/kirti/react-ai-skills)
 [![npm](https://img.shields.io/badge/npm-%40kirti%2Freact--ai--skills-red)](https://www.npmjs.com/package/@kirti/react-ai-skills)
